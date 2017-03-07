@@ -1,4 +1,4 @@
 # gratuities
-iOS/Swift Intuit Application for calculating Tip's with different Tip percentages.
-The "next" branch contains the minimum requirements, and is still a work in progress.
+iOS/Swift Intuit app - "next" branch has latest, minimum requirements work in progress
+
 ![Gratuities Walkthru](http://davidjyoung.com/cmg/tippy3.gif)
