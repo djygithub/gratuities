@@ -15,6 +15,7 @@ The following **required** functionality is complete:
 * [x] Settings page to change the default tip percentage.
 　
 The following **optional** features are implemented:
+* [x] Works in any/all orientations (see video link at top tippy3.mp4).
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
