@@ -64,18 +64,6 @@
                                     <action selector="calculategratuity:" destination="BYZ-38-t0r" eventType="editingChanged" id="FUL-4P-p1A"/>
                                 </connections>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="kvp-2k-gk9">
-                                <frame key="frameInset" minX="30" minY="352" width="298" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="18%"/>
-                                    <segment title="20%"/>
-                                    <segment title="25%"/>
-                                </segments>
-                                <connections>
-                                    <action selector="calculategratuity:" destination="BYZ-38-t0r" eventType="valueChanged" id="Pe5-Qy-lH3"/>
-                                </connections>
-                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -83,11 +71,16 @@
                             <outletCollection property="gestureRecognizers" destination="D0k-L4-XoK" appends="YES" id="COf-Ih-xsD"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Gratuities" id="meb-ov-liW"/>
+                    <navigationItem key="navigationItem" title="Gratuities" id="meb-ov-liW">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="guj-ZB-jbF">
+                            <connections>
+                                <segue destination="ofw-P9-dgs" kind="push" id="GCp-8b-Yog"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billField" destination="zRY-cV-1BO" id="6l6-ac-ffL"/>
                         <outlet property="gratuityLabel" destination="smo-7V-HAO" id="yej-PS-TVZ"/>
-                        <outlet property="tipControl" destination="kvp-2k-gk9" id="cHI-WA-lL9"/>
                         <outlet property="totalLabel" destination="DzR-JG-fQv" id="1br-LS-8qg"/>
                     </connections>
                 </viewController>
@@ -98,7 +91,53 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="660.5" y="136.5"/>
+            <point key="canvasLocation" x="636" y="133"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="slS-q0-CQM">
+            <objects>
+                <viewController id="ofw-P9-dgs" customClass="SettingsViewController" customModule="tippy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vcX-fU-Te2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ym6-dn-kNU">
+                                <frame key="frameInset" minX="269" minY="108" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="25%"/>
+                                <connections>
+                                    <action selector="settipper:" destination="ofw-P9-dgs" eventType="touchDown" id="DHJ-LK-XaE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="av9-nr-7xb">
+                                <frame key="frameInset" minX="47" minY="108" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="18%"/>
+                                <connections>
+                                    <action selector="tip18set:" destination="ofw-P9-dgs" eventType="touchUpInside" id="SB2-am-beh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ipx-ME-Lvz">
+                                <frame key="frameInset" minX="164" minY="108" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="20%"/>
+                                <connections>
+                                    <action selector="tip20set:" destination="ofw-P9-dgs" eventType="touchUpInside" id="EgY-tq-QCt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pcz-Qw-lfO"/>
+                    <connections>
+                        <outlet property="tip18" destination="av9-nr-7xb" id="2pX-Yy-LuZ"/>
+                        <outlet property="tip20" destination="Ipx-ME-Lvz" id="5Ai-Oe-zh7"/>
+                        <outlet property="tipper" destination="Ym6-dn-kNU" id="5VR-CK-dDn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jyp-S1-CiS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1136.5" y="132.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LU5-xW-sq4">
