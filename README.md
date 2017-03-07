@@ -23,9 +23,7 @@ The following **additional** features are implemented:
 　
 - [ ] List anything else that you can get done to improve the app functionality!
 　
-## Video Walkthrough 
-　
-Here is  a walkthrough of implemented user stories:
+
 ![video walkthru](http://davidjyoung.com/cmg/tippy3.gif)
 　
 GIF created with [Camtasia3](https://www.techsmith.com/).
