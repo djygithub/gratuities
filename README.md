@@ -27,7 +27,6 @@ The following **additional** features are implemented:
 　
 Here is  a walkthrough of implemented user stories:
 ![video walkthru](http://davidjyoung.com/cmg/tippy3.gif)
-<img src='http://davidjyoung.com/cmg/tippy3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 　
 GIF created with [Camtasia3](https://www.techsmith.com/).
 　
