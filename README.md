@@ -7,8 +7,7 @@ Built on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 
 Submitted by: **David J Young**
 　
 Time spent: **16** hours spent in total
-　
-## User Stories
+
 　
 ## The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
