@@ -10,13 +10,11 @@ Time spent: **16** hours spent in total
 　
 ## User Stories
 　
-# The following **required** functionality is complete:
-　
+## The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] Settings page to change the default tip percentage.
 　
-# The following checked **optional** features are implemented:
-
+## The following checked **optional** features are implemented:
 * [x] Works in any/all orientations including lying down (see video link at top tippy3.mp4).
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
