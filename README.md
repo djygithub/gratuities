@@ -1,4 +1,5 @@
-iOS/Swift Intuit app - "next" branch has the latest minimum requirements. Work in progress
+iOS/Swift Intuit app - "next" branch has the latest minimum requirements. Work in progress.
+Built on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 10.3, Swift 3.0
 # Pre-work - *Gratuities*
 　
 **Gratuities** is a tip calculator application for iOS.
@@ -15,7 +16,8 @@ The following **required** functionality is complete:
 * [x] Settings page to change the default tip percentage.
 　
 The following **optional** features are implemented:
-* [x] Works in any/all orientations (see video link at top tippy3.mp4).
+
+* [x] Works in any/all orientations including lying down (see video link at top tippy3.mp4).
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
