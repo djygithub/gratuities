@@ -1,5 +1,5 @@
 iOS/Swift Intuit app - "next" branch has the latest minimum requirements. Work in progress.
-Built on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 10.3, Swift 3.0
+Built on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 10.3, Swift 3.0 https://browser.geekbench.com/v4/cpu/2040421
 # Pre-work - *Gratuities*
 　
 **Gratuities** is a tip calculator application for iOS.
