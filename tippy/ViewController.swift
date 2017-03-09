@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var gratuityLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var TipLabel: UILabel!
     
     @IBOutlet weak var tipControl: UISegmentedControl!
     
@@ -56,6 +57,7 @@ class ViewController: UIViewController {
         
         gratuityLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        TipLabel.text = String(format: "%.2f",tipPercentages[tipindex])
         
     }
     
