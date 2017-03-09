@@ -6,7 +6,7 @@ Built on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 
 　
 Submitted by: **David J Young**
 　
-Time spent: **20** hours spent in total
+Time spent: **20** hours
 
 　
 ## The following **required** functionality is complete:
