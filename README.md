@@ -17,9 +17,6 @@ Time spent: **20** hours
 
 
 ![video walkthru](http://davidjyoung.com/cmg/tippy6.gif)
-　
-
-　
 ## Notes
 GIF created with [Camtasia3](https://www.techsmith.com/).
 　
