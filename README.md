@@ -2,12 +2,8 @@ iOS/Swift Intuit app - "b20170308" branch has the latest minimum requirements. W
 Built on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 10.3, Swift 3.0 https://browser.geekbench.com/v4/cpu/2040421
 # Pre-work - *Gratuities*
 **Gratuities** is a tip calculator application for iOS.
-　
 Submitted by: **David J Young**
-　
 Time spent: **20** hours
-
-　
 ## The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] Settings page to change the default tip percentage.
