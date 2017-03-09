@@ -26,7 +26,6 @@ Time spent: **20** hours spent in total
 GIF created with [Camtasia3](https://www.techsmith.com/).
 　
 ## Notes
-　
-Describe any challenges encountered while building the app.
+GIF created with [Camtasia3](https://www.techsmith.com/).
 　
 
