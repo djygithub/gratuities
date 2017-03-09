@@ -14,7 +14,7 @@ Time spent: **20** hours spent in total
 * [x] Settings page to change the default tip percentage.
 
 ## The following checked **optional** features are implemented:
-* [x] Works in any/all orientations including lying down (see video link at top tippy3.gif).
+* [x] Works in any/all orientations including lying down.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
