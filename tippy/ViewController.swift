@@ -55,8 +55,29 @@ class ViewController: UIViewController {
         let tip = bill * tipPercentages[tipindex]
         let total = bill + tip
         
-        gratuityLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        //number format experiments
+        let totnumber = NSDecimalNumber(decimal: Decimal(total))
+        let tipnumber = NSDecimalNumber(decimal: Decimal(tip))
+        
+        
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .currency
+        numberFormatter.locale = Locale.current
+        
+        let totresult = numberFormatter.string(from: totnumber)
+        print(totresult!)
+        let tipresult = numberFormatter.string(from: tipnumber)
+        print(tipresult!)
+        
+        
+        
+        
+        
+        //gratuityLabel.text = String(format: "$%.2f", tip)
+        gratuityLabel.text = String(tipresult!)
+        
+        //totalLabel.text = String(format: "$%.2f", total)
+        totalLabel.text = String(totresult!)
         TipLabel.text = String(format: "%.2f",tipPercentages[tipindex])
         
     }
