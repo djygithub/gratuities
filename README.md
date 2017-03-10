@@ -22,4 +22,5 @@ Time spent: **20** hours
 GIF created with [Camtasia3](https://www.techsmith.com/).
 ## References
 http://stackoverflow.com/questions/39458003/swift-3-and-numberformatter-currency-¤
+Swift Programming: The Big Nerd Ranch Guide http://www.bignerdranch.com
 
