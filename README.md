@@ -19,7 +19,7 @@ Time spent: **20** hours
 
 ![video walkthru](http://davidjyoung.com/cmg/tippy6.gif)
 ## Notes
-GIF created with [Camtasia3](https://www.techsmith.com/).
+* GIF created with [Camtasia3](https://www.techsmith.com/).
 ## References
 * http://stackoverflow.com/questions/39458003/swift-3-and-numberformatter-currency-¤
 * Swift Programming: The Big Nerd Ranch Guide Second Edition, Mathias & Gallagher November 2016, written for Swift 3.0 http://www.bignerdranch.com
