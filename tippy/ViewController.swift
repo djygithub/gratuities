@@ -54,13 +54,31 @@ class ViewController: UIViewController {
         var tipcolor = tipindex
         
         if tipcolor == 0{
-            self.view.backgroundColor = UIColor.white
+            let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
+                self.view.backgroundColor = UIColor.white
+                
+            }
+            
+            animator.startAnimation()
+            //self.view.backgroundColor = UIColor.white
         }
         if tipcolor == 1{
-            self.view.backgroundColor = UIColor.green
+            let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
+                self.view.backgroundColor = UIColor.green
+                
+            }
+            
+            animator.startAnimation()
+            //self.view.backgroundColor = UIColor.green
         }
         if tipcolor == 2{
-            self.view.backgroundColor = UIColor.yellow
+            let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
+                self.view.backgroundColor = UIColor.yellow
+                
+            }
+            
+            animator.startAnimation()
+            //self.view.backgroundColor = UIColor.yellow
         }
                 
         let bill = Double(billField.text!) ?? 0
