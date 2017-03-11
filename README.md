@@ -12,7 +12,7 @@ Time spent: **20** hours
 ## The following checked **optional** features are implemented:
 * [x] Works in any/all orientations including lying down.
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [x] Background color changes with tip amount.
 * [x] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. 
 
