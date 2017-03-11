@@ -58,7 +58,13 @@ class SettingsViewController: UIViewController {
         
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-        self.view.backgroundColor = UIColor.green
+        //self.view.backgroundColor = UIColor.green
+        let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
+            self.view.backgroundColor = UIColor.green
+            
+        }
+        
+        animator.startAnimation()
         
         
     }
@@ -77,9 +83,18 @@ class SettingsViewController: UIViewController {
         
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-        self.view.backgroundColor = UIColor.white
-
+        //self.view.backgroundColor = UIColor.white
+        let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
+            self.view.backgroundColor = UIColor.white
+            
+        }
+        
+        animator.startAnimation()
+        
     }
+
+
+    
     @IBAction func settipper(_ sender: AnyObject) {
         
         let segvalueToSave = 2
@@ -94,7 +109,16 @@ class SettingsViewController: UIViewController {
         
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-        self.view.backgroundColor = UIColor.yellow
+        //self.view.backgroundColor = UIColor.yellow
+        let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
+                     self.view.backgroundColor = UIColor.yellow
+            
+        }
+        
+        animator.startAnimation()
         
     }
+
+        
     }
+
