@@ -58,7 +58,9 @@ class SettingsViewController: UIViewController {
         
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-
+        self.view.backgroundColor = UIColor.green
+        
+        
     }
     
     @IBAction func tip18set(_ sender: AnyObject) {
@@ -75,6 +77,7 @@ class SettingsViewController: UIViewController {
         
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
+        self.view.backgroundColor = UIColor.white
 
     }
     @IBAction func settipper(_ sender: AnyObject) {
@@ -91,7 +94,7 @@ class SettingsViewController: UIViewController {
         
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-
+        self.view.backgroundColor = UIColor.yellow
         
     }
     }

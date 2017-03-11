@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         UserDefaults.standard.set(valueToSavevc, forKey: "segid")
         UserDefaults.standard.synchronize()
         //_ = UserDefaults.standard.integer(forKey: "segid")
+        self.view.backgroundColor = UIColor.white
             }
 
     override func didReceiveMemoryWarning() {
@@ -48,7 +49,19 @@ class ViewController: UIViewController {
         
         
         let tipindex = UserDefaults.standard.integer(forKey: "segid")
+        // background color tests
         
+        var tipcolor = tipindex
+        
+        if tipcolor == 0{
+            self.view.backgroundColor = UIColor.white
+        }
+        if tipcolor == 1{
+            self.view.backgroundColor = UIColor.green
+        }
+        if tipcolor == 2{
+            self.view.backgroundColor = UIColor.yellow
+        }
                 
         let bill = Double(billField.text!) ?? 0
         //let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
