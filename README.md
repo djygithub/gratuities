@@ -12,7 +12,7 @@ Time spent: **24** hours
 
 ## The following **optional** features are implemented:
 * [x] Works in any/all orientations including lying down.
-* [x] Background color changes with tip amount.
+* [x] Background color changes with tip percentage.
 * [x] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. 
 
