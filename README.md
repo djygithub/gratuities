@@ -17,7 +17,7 @@ Time spent: **20** hours
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. 
 
 
-![video walkthru](http://davidjyoung.com/cmg/tippy6.gif)
+![video walkthru](http://davidjyoung.com/cmg/tippy112gif.gif)
 ## Notes
 GIF created with [Camtasia3](https://www.techsmith.com/).
 ## References
