@@ -10,9 +10,8 @@ Time spent: **24** hours
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] Settings page to change the default tip percentage.
 
-## The following checked **optional** features are implemented:
+## The following **optional** features are implemented:
 * [x] Works in any/all orientations including lying down.
-* [ ] UI animations
 * [x] Background color changes with tip amount.
 * [x] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. 
