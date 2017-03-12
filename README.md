@@ -5,7 +5,7 @@ Xcode 8.2.1, Swift 3.02 https://browser.primatelabs.com/v4/cpu/2042157 https://b
 # Pre-work - *Gratuities*
 **Gratuities** is a tip calculator application for iOS.
 Submitted by: **David J Young**
-Time spent: **28** hours
+Time spent: **32** hours
 ## The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] Settings page to change the default tip percentage.
