@@ -3,31 +3,49 @@
 //  tippy
 //
 //  Created by David on 3/6/17.
-//  Copyright © 2017 David. All rights reserved.
+//  Copyright © 2017 davidjyoung.com All rights reserved.
+//
+//  Function : Set default tip percentage, called from Settings button in ViewController.swift
+//             One of three tip percentages may be selected:  18%, 20% and 25%.  UI screen color
+//             changes (animates) with selected tip percentage. If the user returns to the Gratuities
+//             view without selecting a tip percentage, 18% is selected.
+//
+//
+//  Globals  : segid - integer initialized to zero, used to control tip percentage and corresponding background color across views
+//
+//  IBOutlets: tip18 - UIButton (func tip18set) selects .18 tip percentage and background color white
+//             tipper - UIButton (func settiper) selects .25 tip percentage and backgound color yellow
+//             tip20 - UIButton (func tip20set) selects .20 tip percentage and background color green
+//
+//  APIs     : UIViewPropertyAnimator (UIKit)
+//             UserDefaults (Foundation)
+//
+//  Locals   : valueToSave - work integer for segid
+//             segvalueToSave - work integer for segid
+//
+//  Steps    :
+//
+//**(1)****    Iniatialize default segid to 0 (tip percentage .18, background color white) upon entry to view
+//**(2)****    Set tip percentage index, segid to 0 (.18) and related backgound color to white
+//**(3)****    Set tip percentage index, segid to 1 (.20) and related backgound color to green
+//**(4)****    Set tip percentage index, segid to 2 (.25) and related backgound color to yellow
 //
 
 import UIKit
 
 class SettingsViewController: UIViewController {
     
-    //@IBOutlet weak var setdeftip: UISegmentedControl!
     @IBOutlet weak var tip18: UIButton!
     @IBOutlet weak var tipper: UIButton!
     @IBOutlet weak var tip20: UIButton!
     
-            override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-            
+        //**(1)**** Set default segid to 0 (tip percentage .18, background color white)
             let valueToSave = 0
-            
-            //UserDefaults.standard.integer(forKey: <#T##String#>)
-            
             UserDefaults.standard.set(valueToSave, forKey: "segid")
             UserDefaults.standard.synchronize()
-            //_ = UserDefaults.standard.integer(forKey: "segid")
- 
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,90 +53,37 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    //**(3)****    Set tip percentage index, segid to 0 (.20) and related backgound color to green
     @IBAction func tip20set(_ sender: AnyObject) {
         let segvalueToSave = 1
-        //let segvalueToSave = seg[setvalueToSave.selectedSegmentIndex]
-        
-        
-        
-        
-        
-        
-        //UserDefaults.standard.integer(forKey: <#T##String#>)
-        
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-        //self.view.backgroundColor = UIColor.green
         let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
             self.view.backgroundColor = UIColor.green
-            
         }
-        
         animator.startAnimation()
-        
-        
     }
     
+    //**(2)****    Set tip percentage index, segid to 0 (.18) and related backgound color to white
     @IBAction func tip18set(_ sender: AnyObject) {
         let segvalueToSave = 0
-        
-        //let segvalueToSave = seg[setvalueToSave.selectedSegmentIndex]
-        
-        
-        
-        
-        
-        
-        //UserDefaults.standard.integer(forKey: <#T##String#>)
-        
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-        //self.view.backgroundColor = UIColor.white
         let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
             self.view.backgroundColor = UIColor.white
-            
         }
-        
         animator.startAnimation()
-        
     }
 
-
-    
+    //**(4)****    Set tip percentage index, segid to 0 (.25) and related backgound color to yellow
     @IBAction func settipper(_ sender: AnyObject) {
-        
         let segvalueToSave = 2
-        //let segvalueToSave = seg[setvalueToSave.selectedSegmentIndex]
-        
-        
-        
-        
-        
-        
-        //UserDefaults.standard.integer(forKey: <#T##String#>)
-        
         UserDefaults.standard.set(segvalueToSave, forKey: "segid")
         UserDefaults.standard.synchronize()
-        //self.view.backgroundColor = UIColor.yellow
         let animator = UIViewPropertyAnimator(duration: 1.0, curve: .easeIn){
                      self.view.backgroundColor = UIColor.yellow
-            
         }
-        
         animator.startAnimation()
-        
     }
-
-        
     }
 
