@@ -1,7 +1,5 @@
-iOS/Swift Intuit app - "omega" branch has the latest. Work in progress.
-Started on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 10.3, Swift 3.0 
-https://browser.geekbench.com/v4/cpu/2040421 Continued on a Mac mini (Late 2012) macOS Sierra 10.12.3,
-Xcode 8.2.1, Swift 3.02 https://browser.primatelabs.com/v4/cpu/2042157 https://browser.geekbench.com/v4/compute/493644
+iOS/Swift Intuit app - "omega" branch has the latest. 
+
 # Pre-work - *Gratuities*
 **Gratuities** is a tip calculator application for iOS.
 Submitted by: **David J Young**
