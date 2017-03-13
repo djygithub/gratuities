@@ -20,7 +20,9 @@ Time spent: **32** hours
 
 ![video walkthru](http://davidjyoung.com/cmg/tippyfinal.gif)
 ## Notes
-GIF created with [Camtasia3](https://www.techsmith.com/).
+* GIF created with [Camtasia3](https://www.techsmith.com/).
+* Started on a MacBook Pro (15-inch, Mid 2010) macOS Sierra (10.12), Xcode 8.3, IOS 10.3, Swift 3.0 https://browser.geekbench.com/v4/cpu/2040421
+* Continued on a Mac mini (Late 2012) macOS Sierra 10.12.3,Xcode 8.2.1, Swift 3.02 https://browser.primatelabs.com/v4/cpu/2042157 https://browser.geekbench.com/v4/compute/493644
 ## References
 * http://stackoverflow.com/questions/39458003/swift-3-and-numberformatter-currency-¤
 * Swift Programming: The Big Nerd Ranch Guide Second Edition, Mathias & Gallagher November 2016, written for Swift 3.0 http://www.bignerdranch.com
